@@ -13,6 +13,6 @@ int main(){
     sum+=1/pow(2,n);
 
     }
-    printf("%lf \n",sum);
+    printf("The sum of the series is %lf \n",sum);
     return 0;
 }
