@@ -10,9 +10,11 @@ int main(){
     scanf("%d",&it);
     for(n=1;n<=it;n++){
 
-    sum+=1/pow(3,n);
+    sum+=1/pow(2,n);
 
     }
     printf("The sum of the series is %lf \n",sum);
     return 0;
 }
+// to compile use 'gcc convergentseries.c -lm'
+// to execute use ./a.out
