@@ -13,7 +13,7 @@ int main()
     int side;
     printf("The side of the square is\n");
     scanf("%d",&side); // variable side becomes address of the scanned input, that because of '&' function
-    printf("The area of the square with side %d is %d sq units",side,side*side);
+    printf("The area of the square with side %d is %d sq units\n",side,side*side);
 
     return 0;
 
