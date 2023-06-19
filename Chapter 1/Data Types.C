@@ -19,9 +19,9 @@ int main()
 
     /* Giving input in output console */
     int x; int y;  ;    // here we specified two variables but have not yet assigned them values
-    printf("x =\n");
+    printf("x = ");
     scanf("%d",&x);  // scanf is a function that takes input from user at output console
-    printf("y =\n");
+    printf("y = ");
     scanf("%d",&y);
     printf("x is %d and y is %d\n",x,y);
 

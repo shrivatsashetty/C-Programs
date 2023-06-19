@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "Experiments.C": "cpp",
-        "Division.C": "cpp"
+        "Division.C": "cpp",
+        "Data Types.C": "cpp"
     }
 }
