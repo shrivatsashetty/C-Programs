@@ -10,7 +10,8 @@ int main()
     int number=31;
     printf("number value is %d \n",number);
     double decimal=number;
-    printf("decimal value is value is %.2lf \n",decimal);
+    printf("decimal value is value is %.2lf \n",decimal); // %.2lf is format specifier for double type
+
 
     return 0;
 
