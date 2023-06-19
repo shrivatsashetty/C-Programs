@@ -12,11 +12,11 @@ int main()
      here since only y is assigned a value so it must be written at last of = sign  */
      printf("x , y ,z are all equal to %d \n",y);
 
-     int p,q,r;  // int p=q=r=7 would be invalid since q , r are not yet assigned
-     p=q=r=7;
-     printf("p,q,r are respectively equal to %d ,%d% ,%d",p,q,r);
+     int p,q,r;  
+     p=q=r=7;      // int p=q=r=7 would be invalid since q , r are not yet assigned
+     printf("p,q,r are respectively equal to %d ,%d ,%d ",p,q,r);
 
 
-return 0;
+    return 0;
 
 }
