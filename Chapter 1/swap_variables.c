@@ -1,3 +1,4 @@
+// program to swap values of two variables without using assignment operator
 #include<stdio.h>
 
 int main(){
@@ -12,7 +13,5 @@ int main(){
 
     printf("After swap value of a is %d and b is %d\n",a,b);
     
-    printf(" ");
-
 
 }
