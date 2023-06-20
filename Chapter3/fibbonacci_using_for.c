@@ -2,7 +2,6 @@
 
 void fibbonacci(int n);
 
-int a=0,b=1,buffer;
 int main(){
     int n;
     printf("Enter how many terms: ");
@@ -14,13 +13,13 @@ int main(){
 
 
 void fibbonacci(int n){
-    
-    if(n == 1){return;}  
-    buffer= 0;
-    printf(" %d",b);
-    buffer = a;
-    a=b;
-    b+=buffer;
-    fibbonacci(n-1); // recursion
-   
+    int a=0,b=1,buffer;
+    for(int i=n;i>=1;i--){
+        buffer= 0;
+        printf(" %d",b);
+        buffer = a;
+        a=b;
+        b+=buffer;
+    }
+    return;
 }

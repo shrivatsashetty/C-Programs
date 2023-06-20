@@ -12,6 +12,6 @@ int main(){
     b=buffer;
 
     printf("After swap value of a is %d and b is %d\n",a,b);
-    
+    return 0;
 
 }
