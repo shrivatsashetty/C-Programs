@@ -8,7 +8,10 @@ int main(){
 
     printf("adress of myvariable stored inside mypointer is %p\n",mypointer);
     printf("value stored inside myvariable accessed via '*mypointer' is %f\n",*mypointer);
-    printf("memory address of pointer 'mypointer' itself is %p\n",&mypointer);    
+    printf("memory address of pointer 'mypointer' itself is %p\n",&mypointer);
+
+    printf("%p\n", (void*)0x7ffe240df000);
+
 
     return 0;
 }

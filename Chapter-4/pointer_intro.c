@@ -12,6 +12,11 @@ int main(){
     printf("value_at : %d\n",value_at);
     printf("*myptr : %d\n",*myptr);
     printf("*(&myage) : %d\n",*(&myage));
-    // printf("");
+
+    int mynum = 2;
+    int *ptr = &mynum;
+    // scanf("%d",&mynum);
+    printf("%d\n",*&mynum); // 2
+    printf("%d\n",*ptr);  // 2
 
 }
