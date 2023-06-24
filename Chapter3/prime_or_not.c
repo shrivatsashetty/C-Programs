@@ -18,6 +18,7 @@ int main(){
     return 0;
 }
 
+// function to check if a number is prime or not
 int checkPrime(int n){
     int flag = 1; // flag = 1 for prime 
     if(n == 0 || n == 1){
