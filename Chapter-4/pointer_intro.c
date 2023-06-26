@@ -16,7 +16,7 @@ int main(){
     int mynum = 2;
     int *ptr = &mynum;
     // scanf("%d",&mynum);
-    printf("%d\n",*&mynum); // 2
-    printf("%d\n",*ptr);  // 2
+    printf("%d\n",*&mynum); // 2 pinted
+    printf("%d\n",*ptr);  // 2 printed
 
 }
