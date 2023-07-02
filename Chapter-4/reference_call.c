@@ -18,7 +18,7 @@ int main(){
     printf("Enter a number: ");
     scanf("%d",&number);
     printf("Initially number = %d\n",number);
-    cube_by_reference(ptr); // we can also pass &number as the argument
+    cube_by_reference(ptr); // we can also pass '&number' as the argument
     printf("The orignal value of number = %d\n",number);
 
     return 0;   
