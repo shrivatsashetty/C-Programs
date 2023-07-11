@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "Experiments.C": "cpp",
+        "Division.C": "cpp",
+        "Data Types.C": "cpp",
+        "Helloworld.C": "cpp",
+        "Instruction.C": "cpp",
+        "Area.C": "cpp"
+    }
+}
