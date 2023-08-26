@@ -1,6 +1,6 @@
 #include<stdio.h>
 
 int main(){
-  printf("Hello World\nfrom C program in git repo\nnow ina docker container\n");
+  printf("Hello World \n");
   return 0;
 }
